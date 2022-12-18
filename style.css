@@ -1,0 +1,158 @@
+*{
+    padding:0;  margin:0; box-sizing:box-border;
+}
+ header{
+    width:100%;
+    height: 100vh;
+    background:url('pic3.avif');
+     background-size:  100%, cover;
+     background-position:right, center;
+     background-repeat: no-repeat,no-repeat;
+     clip-path:polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.logo{
+    color:white;
+    font-size:50px;
+    padding-left:100px;
+    letter-spacing: 5px;
+}
+.menu a{
+    color:whitesmoke;
+    text-decoration:none;
+    padding:10px 20px;
+    margin:5px;
+    font-size:20px;
+    font-weight:bold;
+}
+.menu{
+    margin-right:100px;
+}
+  nav{
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  } 
+  .logo span{
+    color: #e74c3c;
+  }
+  .menu a:hover{
+    background:#e74c3c;
+    transition:0.4;
+    
+  }
+  .text{
+    color:white;
+    margin-top:100px;
+    margin-left:100px;
+    max-width:450px;
+
+  }
+  .text h1{
+    font-size:50px;
+    margin:10px 0px;
+  }
+  .text p{
+    font-size:25px;
+  }
+ .c-btn{
+    border:none;
+    outline:none;
+    color:white;
+    background:#e74c3c;
+    padding:10px;
+    margin-top: 20px;
+
+  }
+  #Services{
+    padding:100px 50px;
+    
+
+  }
+  .Section-info{
+    font-weight:bold;
+    text-align:center;
+
+  }
+  .Section-info h1{
+    font-size:50px; 
+  }
+  .Section-info p{
+    font-size:25px; 
+    color:#e74c3c;
+  }
+  .Services-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+  .Services-left-col{
+    flex-basis:50%;
+  }
+  .Services-left-col img{
+    width:70%;
+    padding:50px;
+    
+  }
+  .Services-right-col{
+    flex-basis:50%;
+
+  }
+  #p-title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .Services-right-col p{
+    font-size: 20px;
+    text-align: justify;
+  }
+  #contact{
+    padding: 20px 10px;
+    text-align: center;
+    background: gray;
+  }
+  .contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact-left-col{
+    flex-basis: 50%;
+  }
+  .contact-left-col-img:hover{
+    transform: scale(1.25);
+    transition: .4s;
+  }
+  .contact-right-col{
+    flex-basis: 50%;
+
+  }
+  .contact-right-col form{
+    text-align: center;
+  }
+  .contact-right-col form h2{
+    margin-bottom: 20px;
+  }
+  .contact-right-col form input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-right-col form textarea{
+    width: 60%;
+    padding: 10px;
+  }
+
+  
+  #footer{
+    background: black;
+    color: white;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+  }
